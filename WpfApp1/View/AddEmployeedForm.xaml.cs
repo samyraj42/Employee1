@@ -56,7 +56,7 @@ namespace WpfApp1.View
             {
                 Window parentWindow = Window.GetWindow((DependencyObject)this);
                 string msg = vm.TAG == "N" ? "added" : "updated";
-                MessageBox.Show("Category "+ msg + " successfully.");
+                MessageBox.Show("Employee "+ msg + " successfully.");
                 CloseWindow(sender);
             }
         }
