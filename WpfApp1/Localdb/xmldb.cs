@@ -120,8 +120,8 @@ namespace WpfApp1.DataBase
         }
         public ObservableCollection<Employee> GetStudentRecords(ObservableCollection<Employee> employees)
         {
-            if(xmldoc is null) return new ObservableCollection<Employee>();
             this.LoadXml();
+            if (xmldoc is null) return new ObservableCollection<Employee>();           
             var datas = xmldoc.Descendants("Employee").Select(p => new
             {
                 Id = p.Element("Id").Value,
