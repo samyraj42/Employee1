@@ -9,7 +9,7 @@
         WindowStyle="ToolWindow"
         WindowState="Maximized"
         xmlns:control="clr-namespace:Controls"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Employee" Height="450" Width="800">
     <Grid>
         <Grid Margin="10">
             <Grid.RowDefinitions>
